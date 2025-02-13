@@ -9,6 +9,6 @@ http.get(url, (response) => {
             return console.error(err);
         }
         console.log(data.toString().length);
-        console.log(data.toString());
+        console.log(data.toString());   
     }))
 })
